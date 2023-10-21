@@ -13,6 +13,7 @@ int main()
 
     cout << "1) Change kilogram (kg) to pound (lb)\n";
     cout << "2) Change miles (mi) to kilometers (km)\n";
+    cout << "3) Change Celsius (C) to Fahrenheit (F)\n";
     cout << "What are you want to do?: ";
     cin >> choose;
 
@@ -29,17 +30,11 @@ int main()
             value = unit * 1.609344;
             cout << unit << " mi = " << setprecision(10) << value << " km\n";
             break;
+        case 3:
+            value = unit * 9/5 + 32;
+            cout << unit << " C = " << setprecision(10) << value << " F\n";
         default:
             cout << "\n Sorry, you need choose a number betwean 1 and 2";
     }
-
-    //double unit, value;
-    //cout << "Give a number of kg: ";
-    //cin >> unit;
-
-    //value = unit * 2.20462262;
-
-    //cout << setprecision(7) << value;
-
 }
 
