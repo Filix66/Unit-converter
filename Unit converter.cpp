@@ -1,7 +1,4 @@
-﻿// Unit converter.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <iomanip>
 
 using namespace std;
@@ -37,4 +34,5 @@ int main()
             cout << "\n Sorry, you need choose a number betwean 1 and 2";
     }
 }
+
 
